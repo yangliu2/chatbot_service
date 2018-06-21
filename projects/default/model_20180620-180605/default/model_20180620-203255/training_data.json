@@ -1,0 +1,44 @@
+{
+  "rasa_nlu_data": {
+    "common_examples": [
+      {
+        "intent": "current_thoughts",
+        "entities": [
+          {
+            "start": 13,
+            "end": 21,
+            "value": "thinking",
+            "entity": "thoughts"
+          }
+        ],
+        "text": "what are you thinking right now?"
+      },
+      {
+        "intent": "current_thoughts",
+        "entities": [
+          {
+            "start": 9,
+            "end": 17,
+            "value": "thinking",
+            "entity": "thoughts"
+          }
+        ],
+        "text": "what you thinking"
+      },
+      {
+        "intent": "current_thoughts",
+        "entities": [
+          {
+            "start": 14,
+            "end": 22,
+            "value": "thoughts",
+            "entity": "thoughts"
+          }
+        ],
+        "text": "what are your thoughts"
+      }
+    ],
+    "regex_features": [],
+    "entity_synonyms": []
+  }
+}
